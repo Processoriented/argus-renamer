@@ -80,7 +80,7 @@ class AvailableMedia():
                     tp = os.path.join(np, d)
                     if not os.path.isdir(tp):
                         os.makedirs(tp)
-                np = tp
+                    np = tp
             if os.path.exists(os.path.join(np, media_file['file'])):
                 cSz = os.path.getsize(os.path.join(np, media_file['file']))
             else:
